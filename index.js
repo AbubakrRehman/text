@@ -1,3 +1,4 @@
-import log from "./log.js";
-console.log("this is index.js");
-log("log call");
+import App from "./lib/App.js";
+const rootNode = document.getElementById("root");
+ReactDOM.render(App(), rootNode);
+
