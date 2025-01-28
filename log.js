@@ -5,6 +5,6 @@ export default function log(text) {
 }
 
 let i = 0;
-while (i < 100000000) {
+while (i < 10000) {
     console.log("value of i", i++);
 }
